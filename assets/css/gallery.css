@@ -1,0 +1,35 @@
+    .image-gallery {
+        padding-top: 60px;
+        padding-left: 30px;
+    }
+    
+    .gallery-images {
+        position: relative;
+        width: 95vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .gallery-images img {
+        flex: 1 0 21%;
+        margin: 5px;
+        width: 100px;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    @media screen and (min-width: 400px) {
+        .image-gallery {
+            padding-top: 60px;
+            padding-left: 12px;
+        }
+    }
+    
+    @media screen and (min-width: 1000px) {
+        .image-gallery {
+            padding-top: 60px;
+            padding-left: 25px;
+        }
+    }
