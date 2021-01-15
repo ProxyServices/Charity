@@ -20,7 +20,7 @@
         object-fit: cover;
     }
     
-    @media screen and (min-width: 400px) {
+    @media screen and (min-width: 300px) {
         .image-gallery {
             padding-top: 60px;
             padding-left: 12px;
