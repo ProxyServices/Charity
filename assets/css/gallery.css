@@ -12,7 +12,8 @@
         align-items: center;
     }
     
-    .gallery-images img {
+    .gallery-images img,
+    .gallery-images video {
         flex: 1 0 21%;
         margin: 5px;
         width: 100px;
